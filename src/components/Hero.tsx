@@ -71,7 +71,8 @@ const Hero: React.FC = () => {
             }}>
               View My Work
             </button>
-            <button className="hoverable px-8 py-3 border-2 border-gray-400 rounded-lg font-semibold hover:border-white hover:bg-white hover:text-gray-900 transition-all duration-300" onClick={()=>{window.open("https://drive.google.com/file/d/1NtHHSOx7LLB4WfTS8EI_CmGmv7fepY5_/view?usp=sharing")}}>
+            <button className="hoverable px-8 py-3 border-2 border-gray-400 rounded-lg font-semibold hover:border-white hover:bg-white hover:text-gray-900 transition-all duration-300" 
+            onClick={()=>{window.open("https://drive.google.com/file/d/1nmmIaFgY5k_aVDX2kajEARz-e8cLjpz2/view?usp=sharing")}}>
               Download Resume
             </button>
           </motion.div>
